@@ -1,0 +1,17 @@
+﻿{
+  {
+    "Name": "Lethal 5+",
+    "Value": "5+",
+    "Description": "If you roll a 5 or higher when attacking, the attack counts as a critical hit instead of a normal hit."
+  },
+  {
+    "Name": "Balanced",
+    "Value": null,
+    "Description": "You can re-roll one of your attack dice."
+  },
+  {
+    "Name": "Blast",
+    "Value": "2\"",
+    "Description": "When targeting a group of enemies within 2 inches, this weapon can affect multiple operatives."
+  }
+}

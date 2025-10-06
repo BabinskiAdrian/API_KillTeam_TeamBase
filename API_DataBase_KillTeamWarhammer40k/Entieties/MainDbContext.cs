@@ -14,20 +14,20 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties
         {
         }
 
-        public DbSet<FactionEquipment> FactionEquipment { get; set; }
-        public DbSet<UniversalEquipment> UniversalEquipment { get; set; }
+        public DbSet<FactionEquipment> FactionEquipmentDbSet { get; set; }
+        public DbSet<UniversalEquipment> UniversalEquipmentDbSet { get; set; }
 
-        public DbSet<Operative> Operative { get; set; }
-        public DbSet<OperativeAbility> OperativeAbility { get; set; }
+        public DbSet<Operative> OperativeDbSet { get; set; }
+        public DbSet<OperativeAbility> OperativeAbilityDbSet { get; set; }
 
-        public DbSet<FirefightPloy> FirefightPloy { get; set; }
-        public DbSet<StrategyPloy> StrategyPloy { get; set; }
+        public DbSet<FirefightPloy> FirefightPloyDbSet { get; set; }
+        public DbSet<StrategyPloy> StrategyPloyDbSet { get; set; }
 
-        public DbSet<FactionRule> FactionRule { get; set; }
-        public DbSet<KillTeam> KillTeam { get; set; }
+        public DbSet<FactionRule> FactionRuleDbSet { get; set; }
+        public DbSet<KillTeam> KillTeamDbSet { get; set; }
 
-        public DbSet<Weapon> Weapon { get; set; }
-        public DbSet<WeaponAbility> WeaponAbility { get; set; }
+        public DbSet<Weapon> WeaponDbSet { get; set; }
+        public DbSet<WeaponAbility> WeaponAbilityDbSet { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
