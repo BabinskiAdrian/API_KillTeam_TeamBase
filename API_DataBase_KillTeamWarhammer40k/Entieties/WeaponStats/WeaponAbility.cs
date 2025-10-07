@@ -9,9 +9,8 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
 
 
         // Filds
-        public string Name { get; set; } //non-nullable
-        public string? ValueBeforeName{ get; set; }  //nullable
-        public string? ValueAfterName { get; set; }  //nullable
+        public int? ValueBeforeName{ get; set; }  //nullable
+        public int? ValueAfterName { get; set; }  //nullable
         public DateTime LastUpdate { get; set; }
 
 

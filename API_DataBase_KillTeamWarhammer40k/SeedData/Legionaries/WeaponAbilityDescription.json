@@ -20,7 +20,7 @@
 [
   {
     "Id": 1,
-    "Name": "Accurate x",
+    "Name": "Accurate x\"",
     "Description": "You can retain up to x attack dice as normal successes without rolling them. If a weapon has more than one instance of Accurate x, you can treat it as one instance of Accurate 2 instead (this takes precedence over x rules above)."
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "Id": 5,
-    "Name": "Devastating x\"",
+    "Name": "y\" Devastating x",
     "Description": " Each retained critical success immediately inflicts x damage on the operative this weapon is being used against, e.g. Devastating 3. If the rule starts with a distance (e.g. 1\" Devastating x), inflict x damage on that operative and each other operative visible to and within that distance of it. Note that success isn’t discarded after doing so – it can still be resolved later in the sequence."
   },
   {

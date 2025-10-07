@@ -3,28 +3,105 @@
 public int Id { get; set; }
 
 // Filds
-public string Name { get; set; } //non-nullable
-public string? Value { get; set; }  //nullable
-public DateTime LastUpdate { get; set; }
+        public int? ValueBeforeName { get; set; }  //nullable
+        public int? ValueAfterName { get; set; }  //nullable
 
-// foreign key
-public ICollection<Weapon> Weapons { get; set; } = new List<Weapon>();  // Relacja wiele-do-wielu
+// foreign key        
+        public int WeaponAbilityDescriptionId { get; set; } // foreign key
 */
+
+/*
+    {
+    "Id": 3,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 8,
+    "WeaponAbilityDescriptionId": 1
+    },
+
+  */
 [
   {
     "Id": 1,
-    "Name": "Lethal 5+",
-    "Value": "5+",
-    "Description": "If you roll a 5 or higher when attacking, the attack counts as a critical hit instead of a normal hit."
+    "ValueBeforeName": null,
+    "ValueAfterName ": 8,
+    "WeaponAbilityDescriptionId": 12 // Range
   },
   {
-    "Name": "Balanced",
-    "Value": null,
-    "Description": "You can re-roll one of your attack dice."
+    "Id": 2,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 1,
+    "WeaponAbilityDescriptionId": 10 // Piercing
   },
   {
-    "Name": "Blast",
-    "Value": "2\"",
-    "Description": "When targeting a group of enemies within 2 inches, this weapon can affect multiple operatives."
+    "Id": 3,
+    "ValueBeforeName": null,
+    "ValueAfterName ": null,
+    "WeaponAbilityDescriptionId": 7 // Hot
+  },
+  {
+    "Id": 4,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 5,
+    "WeaponAbilityDescriptionId": 8 // Lethal 5+
+  },
+  {
+    "Id": 5,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 8,
+    "WeaponAbilityDescriptionId": 14 // Rending
+
+  },
+  {
+    "Id": 6,
+    "ValueBeforeName": null,
+    "ValueAfterName ": null,
+    "WeaponAbilityDescriptionId": 4 // Brutal
+  },
+  {
+    "Id": 7,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 2,
+    "WeaponAbilityDescriptionId": 3 // Blast 2"
+  },
+  {
+    "Id": 8,
+    "ValueBeforeName": 1,
+    "ValueAfterName ": 1,
+    "WeaponAbilityDescriptionId": 5 // 1" Devastating 1
+  },
+  {
+    "Id": 9,
+    "ValueBeforeName": null,
+    "ValueAfterName ": null,
+    "WeaponAbilityDescriptionId": 15 // Saturate
+  },
+  {
+    "Id": 10,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 2,
+    "WeaponAbilityDescriptionId": 21 // Torrent 2"
+  },
+  {
+    "Id": 12,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 6,
+    "WeaponAbilityDescriptionId": 12 // Range 6"
+  },
+  {
+    "Id": 13,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 4,
+    "WeaponAbilityDescriptionId": 5 // Devastating 4
+  },
+  {
+    "Id": 14,
+    "ValueBeforeName": null,
+    "ValueAfterName ": 2,
+    "WeaponAbilityDescriptionId": 10 // Piercing 2
   }
+
+  // z Heavy probelmy
+  // Z umiejkami (life syphone) problemy
+
+
 ]

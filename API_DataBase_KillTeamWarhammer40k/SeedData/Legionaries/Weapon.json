@@ -1,13 +1,12 @@
 /*
 public int Id { get; set; }
 
-public bool IsRange { get; set; }
-public string Name { get; set; }
-public int Atk { get; set; }
-public int Hit { get; set; }
-public int DmgNormal { get; set; }
-public int DmgCrit{ get; set; }
-public string Wr { get; set; } //wypisane po przecinku jako jeden tekst a pozniej pedzlowane poprawnie
+        public bool IsRange { get; set; }
+        public string Name { get; set; }
+        public int Atk { get; set; }
+        public int Hit { get; set; }
+        public int DmgNormal { get; set; }
+        public int DmgCrit { get; set; }
 
 public ICollection<WeaponAbility> WeaponAbilities { get; set; } = new List<WeaponAbility>();  // Relacja wiele-do-wielu
 public ICollection<Operative> Operatives { get; set; } = new List<Operative>();
