@@ -1,9 +1,10 @@
 ﻿using API_DataBase_KillTeamWarhammer40k.Entieties.Interfaces;
 using API_DataBase_KillTeamWarhammer40k.Entieties.Operatives;
+using Microsoft.AspNetCore.Http;
 
 namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
 {
-    public class Weapon : IBaseInterface
+    public class Weapon_Old : IBaseInterface
     {
         // private key
         public int Id { get; set; }
@@ -17,6 +18,11 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
         public int DmgNormal { get; set; }
         public int DmgCrit { get; set; }
         // public string Wr { get; set; } //pędzlowane później w dto a nie w bazie danych
+        //List<string> wr;
+        //foreach(string ability in wr)
+        //{
+        //    ability
+        //}
 
         public DateTime LastUpdate { get; set; }
         // foreign key
