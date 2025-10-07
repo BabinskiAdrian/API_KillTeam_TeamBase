@@ -1,5 +1,18 @@
-﻿{
+/*
+// private key
+public int Id { get; set; }
+
+// Filds
+public string Name { get; set; } //non-nullable
+public string? Value { get; set; }  //nullable
+public DateTime LastUpdate { get; set; }
+
+// foreign key
+public ICollection<Weapon> Weapons { get; set; } = new List<Weapon>();  // Relacja wiele-do-wielu
+*/
+[
   {
+    "Id": 1,
     "Name": "Lethal 5+",
     "Value": "5+",
     "Description": "If you roll a 5 or higher when attacking, the attack counts as a critical hit instead of a normal hit."
@@ -14,4 +27,4 @@
     "Value": "2\"",
     "Description": "When targeting a group of enemies within 2 inches, this weapon can affect multiple operatives."
   }
-}
+]

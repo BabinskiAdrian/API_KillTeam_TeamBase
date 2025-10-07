@@ -10,12 +10,14 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
 
         // Filds
         public string Name { get; set; } //non-nullable
-        public string? Value { get; set; }  //nullable
-        public string Description { get; set; }
+        public string? ValueBeforeName{ get; set; }  //nullable
+        public string? ValueAfterName { get; set; }  //nullable
         public DateTime LastUpdate { get; set; }
 
 
         // foreign key
-        public ICollection<Weapon> Weapons { get; set; } = new List<Weapon>();  // Relacja wiele-do-wielu
+        public ICollection<Weapon> Weapons { get; set; } = new List<Weapon>();  // Relacja wiele-do-wielupublic
+        public int WeaponAbilityDescriptionId { get; set; } // foreign key
+        public  WeaponAbilityDescription WeaponAbilityDescription { get; set; }
     }
 }

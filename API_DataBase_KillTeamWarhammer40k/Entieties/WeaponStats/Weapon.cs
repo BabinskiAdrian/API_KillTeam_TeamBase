@@ -15,8 +15,7 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
         public int Atk { get; set; }
         public int Hit { get; set; }
         public int DmgNormal { get; set; }
-        public int DmgCrit{ get; set; }
-        public string Wr { get; set; } //wypisane po przecinku jako jeden tekst a później pędzlowane poprawnie
+        public int DmgCrit { get; set; }
         public DateTime LastUpdate { get; set; }
 
 

@@ -1,0 +1,27 @@
+/*
+public int Id { get; set; }
+
+public bool IsRange { get; set; }
+public string Name { get; set; }
+public int Atk { get; set; }
+public int Hit { get; set; }
+public int DmgNormal { get; set; }
+public int DmgCrit{ get; set; }
+public string Wr { get; set; } //wypisane po przecinku jako jeden tekst a pozniej pedzlowane poprawnie
+
+public ICollection<WeaponAbility> WeaponAbilities { get; set; } = new List<WeaponAbility>();  // Relacja wiele-do-wielu
+public ICollection<Operative> Operatives { get; set; } = new List<Operative>();
+*/
+
+[
+  {
+    "Name": "Lethal 5+",
+    "Value": "5+",
+    "Description": "If you roll a 5 or higher when attacking, the attack counts as a critical hit instead of a normal hit."
+  },
+  {
+    "Name": "Balanced",
+    "Value": null,
+    "Description": "You can re-roll one of your attack dice."
+  }
+]
