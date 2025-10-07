@@ -47,7 +47,7 @@ public int Id { get; set; }
   {
     "Id": 5,
     "ValueBeforeName": null,
-    "ValueAfterName ": 8,
+    "ValueAfterName ": null,
     "WeaponAbilityDescriptionId": 14 // Rending
 
   },
@@ -82,19 +82,19 @@ public int Id { get; set; }
     "WeaponAbilityDescriptionId": 21 // Torrent 2"
   },
   {
-    "Id": 12,
+    "Id": 11,
     "ValueBeforeName": null,
     "ValueAfterName ": 6,
     "WeaponAbilityDescriptionId": 12 // Range 6"
   },
   {
-    "Id": 13,
+    "Id": 12,
     "ValueBeforeName": null,
     "ValueAfterName ": 4,
     "WeaponAbilityDescriptionId": 5 // Devastating 4
   },
   {
-    "Id": 14,
+    "Id": 13,
     "ValueBeforeName": null,
     "ValueAfterName ": 2,
     "WeaponAbilityDescriptionId": 10 // Piercing 2

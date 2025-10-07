@@ -15,8 +15,8 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
 
 
         // foreign key
-        public ICollection<Weapon> Weapons { get; set; } = new List<Weapon>();  // Relacja wiele-do-wielupublic
-        public int WeaponAbilityDescriptionId { get; set; } // foreign key
-        public  WeaponAbilityDescription WeaponAbilityDescription { get; set; }
+        // unidirectional, from Weapon
+        public int? WeaponAbilityDescriptionId { get; set; } // foreign key
+        public WeaponAbilityDescription? WeaponAbilityDescription { get; set; }
     }
 }

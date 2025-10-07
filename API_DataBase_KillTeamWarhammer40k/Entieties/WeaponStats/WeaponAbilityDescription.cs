@@ -13,6 +13,6 @@
 
 
         // foreign key
-        // tylko wskazywany przez inną kalsę
+        // unidirectional, from WeaponAblity
     }
 }

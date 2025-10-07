@@ -42,7 +42,7 @@
   {
     "Id": 5,
     "Name": "y\" Devastating x",
-    "Description": " Each retained critical success immediately inflicts x damage on the operative this weapon is being used against, e.g. Devastating 3. If the rule starts with a distance (e.g. 1\" Devastating x), inflict x damage on that operative and each other operative visible to and within that distance of it. Note that success isn’t discarded after doing so – it can still be resolved later in the sequence."
+    "Description": " Each retained critical success immediately inflicts x damage on the operative this weapon is being used against, e.g. Devastating 3. If the rule starts with a distance (e.g. 1\" Devastating x), inflict x damage on that operative and each other operative visible to and within that distance of it. Note that success isnï¿½t discarded after doing so ï¿½ it can still be resolved later in the sequence."
   },
   {
     "Id": 6,
@@ -53,7 +53,7 @@
   {
     "Id": 7,
     "Name": "Hot",
-    "Description": "After an operative uses this weapon, roll one D6: if the result is less than the weapon’s Hit stat, inflict damage on that operative equal to the result multiplied by two. If it’s used multiple times in one action (e.g. Blast), still only roll one D6."
+    "Description": "After an operative uses this weapon, roll one D6: if the result is less than the weaponï¿½s Hit stat, inflict damage on that operative equal to the result multiplied by two. If itï¿½s used multiple times in one action (e.g. Blast), still only roll one D6."
   },
   {
     "Id": 8,
@@ -63,7 +63,7 @@
   {
     "Id": 9,
     "Name": "Limited x",
-    "Description": "After an operative uses this weapon a number of times in the battle equal to x, they no longer have it. If it’s used multiple times in one action (e.g. Blast), treat this as one use."
+    "Description": "After an operative uses this weapon a number of times in the battle equal to x, they no longer have it. If itï¿½s used multiple times in one action (e.g. Blast), treat this as one use."
   },
   {
     "Id": 10,
@@ -98,17 +98,17 @@
   {
     "Id": 16,
     "Name": "Seek",
-    "Description": "When selecting a valid target, operatives with a Conceal order cannot use terrain for cover. If the rule is Seek Light, they cannot use Light terrain for cover. While this can allow operatives to be targeted (assuming they’re visible), it doesn’t remove their cover save (if any)."
+    "Description": "When selecting a valid target, operatives with a Conceal order cannot use terrain for cover. If the rule is Seek Light, they cannot use Light terrain for cover. While this can allow operatives to be targeted (assuming theyï¿½re visible), it doesnï¿½t remove their cover save (if any)."
   },
   {
     "Id": 17,
     "Name": "Severe",
-    "Description": "If you don’t retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    "Description": "If you don't retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
   },
   {
     "Id": 18,
     "Name": "Shock",
-    "Description": "The first time you strike with a critical success in each sequence, also discard one of your opponent’s unresolved normal successes (or one of their critical successes if there are none."
+    "Description": "The first time you strike with a critical success in each sequence, also discard one of your opponentï¿½s unresolved normal successes (or one of their critical successes if there are none."
   },
   {
     "Id": 19,
