@@ -13,6 +13,6 @@
 
 
         // foreign key
-        // unidirectional, from WeaponAblity
+        // unidirectional, from Weapon
     }
 }

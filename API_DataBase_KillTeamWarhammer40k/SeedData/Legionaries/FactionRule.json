@@ -1,0 +1,60 @@
+/*
+        // private key
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int KillTeamId { get; set; }
+*/
+/*
+
+  {
+    "Id": 1,
+    "Name": "",
+    "Description":"",
+    "KillTeamId": 1
+  },
+
+*/
+[
+  {
+    "Id": 1,
+    "Name": "MARKS OF CHAOS",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "MARKS OF CHAOS - KHORNE",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "MARKS OF CHAOS - NURGLE",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "MARKS OF CHAOS - SLAANESH",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 5,
+    "Name": "MARKS OF CHAOS - TZEENTCH",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 6,
+    "Name": "MARKS OF CHAOS - UNDIVIDED",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 7,
+    "Name": "ASTARTES",
+    "Description": "",
+    "KillTeamId": 1
+  }
+]

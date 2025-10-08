@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
 {
-    public class Weapon_Old : IBaseInterface
+    public class Weapon : IBaseInterface
     {
         // private key
         public int Id { get; set; }
@@ -17,16 +17,14 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.WeaponStats
         public int Hit { get; set; }
         public int DmgNormal { get; set; }
         public int DmgCrit { get; set; }
-        // public string Wr { get; set; } //pędzlowane później w dto a nie w bazie danych
-        //List<string> wr;
-        //foreach(string ability in wr)
-        //{
-        //    ability
-        //}
-
+        public string Wr { get; set; } // wypisane po przecinku
         public DateTime LastUpdate { get; set; }
+
+
         // foreign key
-        public ICollection<WeaponAbility> WeaponAbilities { get; set; } = new List<WeaponAbility>();  // Relacja wiele-do-wielu
-        // unidirectional, from Operative
+        public ICollection<Operative> Operatives { get; set; } = new List<Operative>();
+        // bez klucza Id
+        // możliwość odnoszenia się z aktualnej klasy do pól WeaponAbilityDescription w kodzie 
+        public ICollection<WeaponAbilityDescription>? WeaponAbilityDescription { get; set; } = new List<WeaponAbilityDescription>();
     }
 }

@@ -1,0 +1,42 @@
+/*
+        // private key
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int KillTeamId { get; set; }
+*/
+/*
+
+  {
+    "Id": 1,
+    "Name": "",
+    "Description":"",
+    "KillTeamId": 1
+  },
+
+*/
+[
+  {
+    "Id": 1,
+    "Name": "UNENDING BLOODSHED",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "MUTABILITY AND CHANGE",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "MALIGNANT AURA",
+    "Description": "",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "SICKENING CAPTIVATION",
+    "Description": "",
+    "KillTeamId": 1
+  }
+]

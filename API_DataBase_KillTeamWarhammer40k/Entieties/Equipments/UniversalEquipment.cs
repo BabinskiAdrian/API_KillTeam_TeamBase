@@ -12,6 +12,7 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.Equipments
 
         // properties
         public string Name { get; set; }
+        public string Description { get; set; }
         public DateTime LastUpdate { get; set; }
 
 

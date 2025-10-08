@@ -1,26 +1,58 @@
 /*
-public int Id { get; set; }
-
+        public int Id { get; set; }
         public bool IsRange { get; set; }
         public string Name { get; set; }
         public int Atk { get; set; }
         public int Hit { get; set; }
         public int DmgNormal { get; set; }
         public int DmgCrit { get; set; }
-
-public ICollection<WeaponAbility> WeaponAbilities { get; set; } = new List<WeaponAbility>();  // Relacja wiele-do-wielu
-public ICollection<Operative> Operatives { get; set; } = new List<Operative>();
+        public string Wr { get; set; } // wypisane po przecinku
 */
 
+/*
+
+,  
+  {
+    "Id": ,
+    "IsRange": true,
+    "Name": "",
+    "Atk": "",
+    "Hit": "",
+    "DmgNormal": "",
+    "DmgCrit": "",
+    "Wr": "",
+   }
+
+*/
 [
   {
-    "Name": "Lethal 5+",
-    "Value": "5+",
-    "Description": "If you roll a 5 or higher when attacking, the attack counts as a critical hit instead of a normal hit."
+    "Id": 1,
+    "IsRange": true,
+    "Name": "Plasma pistol (standard)",
+    "Atk": "4",
+    "Hit": "3",
+    "DmgNormal": "3",
+    "DmgCrit": "5",
+    "Wr": "Range 8\", Piercing 1"
   },
   {
-    "Name": "Balanced",
-    "Value": null,
-    "Description": "You can re-roll one of your attack dice."
+    "Id": 2,
+    "IsRange": true,
+    "Name": "Plasma pistol (supercharge)",
+    "Atk": "4",
+    "Hit": "3",
+    "DmgNormal": "4",
+    "DmgCrit": "5",
+    "Wr": "Range 8\", Hot, Leathal 5+, Piercing 1"
+  },
+  {
+    "Id": 3,
+    "IsRange": true,
+    "Name": "Tainted bolt pistol",
+    "Atk": "4",
+    "Hit": "3",
+    "DmgNormal": "3",
+    "DmgCrit": "5",
+    "Wr": "Range 8\", Rending"
   }
 ]

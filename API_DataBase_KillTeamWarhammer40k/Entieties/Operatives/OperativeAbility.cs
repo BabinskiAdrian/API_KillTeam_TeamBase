@@ -14,6 +14,6 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.Operatives
         public DateTime LastUpdate { get; set; }
 
 
-        public Operative Operative { get; set; }
+        public int OperativeId { get; set; }
     }
 }

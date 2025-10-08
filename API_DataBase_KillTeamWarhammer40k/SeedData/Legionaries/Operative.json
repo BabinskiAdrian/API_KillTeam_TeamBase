@@ -1,0 +1,127 @@
+/*
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Apl { get; set; }
+        public int Move { get; set; }
+        public int Save { get; set; }
+        public int Wounds { get; set; }
+        public string WeaponsName { get; set; } // wypisac po przecinku
+        public int KillTeamId { get; set; }
+*/
+/*
+
+  {
+    "Id": 1,
+    "Name": "",
+    "Apl": "",
+    "Move": "",
+    "Save": "",
+    "Wounds": "",
+    "WeaponsName": "",
+    "KillTeamId": 1
+  },
+
+*/
+
+[
+  {
+    "Id": 1,
+    "Name": "LEGIONARY ASPIRING CHAMPION",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "15",
+    "WeaponsName": "Plasma pistol (standard), Plasma pistol (supercharge), Tainted bolt pistol, Power fist, Power maul, Power weapon, Tainted chainsword",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "LEGIONARY CHOSEN",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "15",
+    "WeaponsName": "Plasma pistol (standard), Plasma pistol (supercharge), Tainted bolt pistol, Daemon blade",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "LEGIONARY ANOINTED",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Daemonic claw",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "LEGIONARY BALEFIRE ACOLYTE",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Fireblast, Life siphon, Fell dagger",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 5,
+    "Name": "LEGIONARY BUTCHER",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Double-handed chainaxe",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 6,
+    "Name": "LEGIONARY GUNNER",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Flamer, Meltagun, Plasma gun (standard), Plasma gun (supercharge), Fists",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 7,
+    "Name": "LEGIONARY HEAVY GUNNER",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Heavy bolter (focused), Heavy bolter (sweeping), Missile launcher (frag), Missile launcher (krag), Reaper chaincannon (focused), Reaper chaincannon (sweeping), Fist",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 8,
+    "Name": "LEGIONARY ICON BEARER",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Boltgun, Chainsword, Fists",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 9,
+    "Name": "LEGIONARY SHRIVETALON",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Flensing blades",
+    "KillTeamId": 1
+  },
+  {
+    "Id": 10,
+    "Name": "LEGIONARY WARRIOR",
+    "Apl": "3",
+    "Move": "6",
+    "Save": "3",
+    "Wounds": "14",
+    "WeaponsName": "Bolt pistol, Boltgun, Chainsword, Fists",
+    "KillTeamId": 1
+  }
+]

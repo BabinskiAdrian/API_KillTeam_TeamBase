@@ -1,0 +1,87 @@
+/*
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public DateTime LastUpdate { get; set; }
+        public int OperativeId { get; set; }
+*/
+/*
+
+  {
+    "Id": 1,
+    "Name": "",
+    "Description": "",
+    "OperativeId": 1
+  },
+
+*/
+
+[
+  {
+    "Id": 1,
+    "Name": "In the Eyes of the Gods",
+    "Description": "Once during each of this operative’s activations, if it incapacitates an enemy operative, add 1 to its APL stat until the end of that activation.",
+    "OperativeId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Daemonic Aura",
+    "Description": "Whenever an enemy operative performs the Fall Back action while within control range of this operative, you can use this rule. If you do, roll one D6: on a 3+, that enemy operative cannot perform that action during that activation/ counteraction (the AP spent on it is refunded).",
+    "OperativeId": 2
+  },
+  {
+    "Id": 3,
+    "Name": "Soul Gorge",
+    "Description": "After this operative fights or retaliates, if it isn’t incapacitated, but it incapacitated an enemy operative during that sequence, it regains up to D3+1 lost wounds.",
+    "OperativeId": 2
+  },
+  {
+    "Id": 4,
+    "Name": "Unleash Daemon",
+    "Description": "Once per battle, when this operative is activated, you can use this rule. If you do, until the end of the battle: \nThis operative cannot perform the Pick Up Marker or mission actions (excluding Operate Hatch). If it’s carrying a marker, it must immediately perform the Place Marker action for 0AP (this takes precedence over all other rules).\nNormal and Critical Dmg of 4 or more inflicts 1 less damage on this operative. If this operative has the NURGLE keyword, you cannot reduce the damage of an attack dice by more than 1. In other words, you cannot use both rules to reduce Normal Dmg of 4 or more by 2.\nIts daemonic claw has the Ceaseless and Lethal 5+ weapon rules.",
+    "OperativeId": 3
+  },
+  {
+    "Id": 5,
+    "Name": "Siphon Life",
+    "Description": "When you select this weapon, you can use this rule. If you do, at the start of the Resolve Attack Dice step, select one friendly LEGIONARY operative visible to and within 6\" of this operative. For each attack dice you resolve during that step that inflicts damage, that friendly operative regains 1 lost wound, or D3 lost wounds if it was a critical success. You cannot use this weapon rule more than once per turning point.",
+    "OperativeId": 4
+  },
+  {
+    "Id": 6,
+    "Name": "Devastating Onslaught:",
+    "Description": "Whenever this operative is fighting or retaliating, enemy operatives cannot assist.\nAt the end of each enemy operative’s activation or counteraction, you can select one enemy operative within 2\" of this operative. This operative can perform a free Charge action (you can change its order to Engage to do so), but it cannot move more than 2\" and must end that move within control range of that selected operative.",
+    "OperativeId": 5
+  },
+  {
+    "Id": 7,
+    "Name": "Icon Bearer",
+    "Description": "Whenever determining control of a marker, treat this operative’s APL stat as 1 higher. Note this isn’t a change to its APL stat, so any changes are cumulative with this.",
+    "OperativeId": 8
+  },
+  {
+    "Id": 8,
+    "Name": "Favoured of the Dark Gods",
+    "Description": "In the Ready step of each Strategy phase, if this operative controls an objective marker that isn’t tainted, that objective marker is tainted for the battle and you gain 1CP. Note that if any operative (including enemy operatives) has tainted an objective marker, you cannot taint that objective marker.",
+    "OperativeId": 8
+  },
+  {
+    "Id": 9,
+    "Name": "Vicious Reflexes",
+    "Description": "Whenever this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker)",
+    "OperativeId": 9
+  },
+  {
+    "Id": 10,
+    "Name": "Horrifying Dismemberment",
+    "Description": "Whenever this operative incapacitates an enemy operative while fighting or retaliating, select one other enemy operative visible to and within 3\" of either this operative or the incapacitated enemy operative. Subtract 1 from that enemy operative’s APL stat until the end of its next activation.",
+    "OperativeId": 9
+  },
+  {
+    "Id": 11,
+    "Name": "Infernal Pact",
+    "Description": "Once per battle, when a friendly LEGIONARY WARRIOR operative is activated, you can use this rule. If you do, change that operative’s Marks of Chaos keyword",
+    "OperativeId": 10
+  },
+  
+]

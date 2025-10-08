@@ -27,7 +27,6 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties
         public DbSet<KillTeam> KillTeamDbSet { get; set; }
 
         public DbSet<Weapon> WeaponDbSet { get; set; }
-        public DbSet<WeaponAbility> WeaponAbilityDbSet { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

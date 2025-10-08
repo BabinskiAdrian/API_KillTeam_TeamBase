@@ -16,6 +16,7 @@ namespace API_DataBase_KillTeamWarhammer40k.Entieties.Operatives
         public int Move { get; set; }
         public int Save { get; set; }
         public int Wounds { get; set; }
+        public string WeaponsName { get; set; } // wypisać po przecinku
         public DateTime LastUpdate { get; set; }
 
 
