@@ -27,7 +27,7 @@ namespace API_DataBase_KillTeamWarhammer40k.SeedData
                 }
 
 
-                GenericAddRange<WeaponAbility>();
+                GenericAddRange<Weapon>();
                 //GenericAddRange<Weapon>();
                 //GenericAddRange<WeaponAbility>();
                 //GenericAddRange<WeaponAbility>();
